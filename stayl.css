@@ -1,0 +1,293 @@
+/*Designed by CodingTuting.Com*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+section {
+    display: block;
+    padding:0 4em 5em;
+}
+
+h1, h2, h3 {
+    font-family: roboto;
+    color:#2E2E2E
+}
+
+.col-5 {
+    width: 40%;
+    display: inline-table;    
+}
+
+.col-6 {
+    width:50%;
+    display: inline-table;
+}
+
+.col-7 {
+    width: 60%;
+    display: inline-table;
+}
+
+.sec-heading {
+    text-align: center;
+    font-size: 40px;
+    padding: 1.5em 0;
+    margin: 0;
+}
+
+p {
+    font-family: lato;
+    color: #717171;
+    line-height: 1.5;
+    text-align: justify
+}
+
+#topHeader {
+    padding: 1em 4em;    
+    font-family: roboto;
+}
+
+#topInfo {
+    padding: 0;
+    margin-top: 10px;
+    text-align: right;
+    color:#2E2E2E
+}
+
+    #topInfo li {
+        list-style-type: none;
+        display: inline;
+    }
+
+    #topInfo li:last-child {
+        padding-left: 21px;
+    }
+
+.logo {
+    color: #ef4b42;
+    font-size: 28px;
+    font-family: roboto;
+}
+
+nav {
+    padding: 18px 0;
+}
+
+.mainMenu {
+    float: right;
+}
+
+.mainMenu a {
+    padding:15px 0;
+    margin-left: 35px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #2E2E2E;
+    position: relative;
+
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.mainMenu a:hover, .mainMenu a:focus {
+    color: #ef4b42;
+}
+
+.mainMenu a:not(:last-child):hover:after,
+.mainMenu a:not(:last-child):focus:after {
+    width: 100%;
+    left: 0;
+}
+
+.mainMenu a:after {
+    top: 40px;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    width: 0;
+    background: #ef4b42;
+
+    -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.mainMenu a:first-child {
+    margin:0;
+}
+
+.mainMenu a:last-child {
+    border: 2px solid #ef4b42;
+    padding: 8px 16px !important;
+    font-size: 17px;
+    border-radius: 20px;
+    text-align: center;
+    color: #ef4b42;
+}
+
+.mainMenu a:last-child:hover,
+.mainMenu a:last-child:focus {
+    background-color: #ef4b42;
+    color: white;
+}
+
+#intro {
+    padding-top: 3em;
+    position: relative;
+}
+
+    #intro div {
+        display: inline-table;
+    }
+
+#intro-info {
+    width:50%;
+    float: left;
+    margin-top: 5.8%;
+}
+
+    #intro-info h1 {
+        font-size: 50px;        
+        font-weight: 600;
+        margin: 0px 0 30px;
+    }
+
+    #intro-info span {
+        display: block;
+        font-family: raleway;
+        font-weight: 600;
+        padding: 0 0 55px;
+        font-size: 23px;
+    }
+
+    .brand-btn {
+        text-decoration: none;
+        background-color: #ef4b42;
+        border:2px solid #ef4b42;
+        color: white;
+        padding: 10px 40px;
+        border-radius: 30px;
+        font-size: 17px;
+        font-family: roboto;
+
+        -webkit-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+    }
+
+    .brand-btn:hover, .brand-btn:focus {
+        background-color: transparent;
+        color: #ef4b42;
+    }
+
+#development-img {
+    width:50%;
+    text-align: right;
+}
+
+#development-img img {
+    height:430px;
+}
+
+#delivery {
+    background-color: #f6f6f6
+}
+    
+    #delivery img {
+        height:300px;
+    }
+    #delivery h2 {
+        font-weight: 500;
+        font-size: 30px
+    }
+
+    #delivery p {        
+        margin-bottom: 40px;
+    }
+
+    .delivery-img {
+        float: left;    
+    }
+
+#services ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+    #services ul li {
+        list-style-type: none;
+        display: inline-block;
+        width: 16%;
+        text-align: center;
+    }
+
+        #services ul li .fas, #services ul li .fab {
+            font-size: 80px;
+            color:#ef4b42;
+        }
+
+        #services ul li div {
+            width: 115px;
+            padding: 15px;
+            border-radius: 6px;
+            border: 3px solid transparent;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+
+            -webkit-transition: all .2s ease-in;
+            transition: all .2s ease-in
+        }
+
+        #services ul li div:hover {
+            border-color: #f7f7f7;
+        }
+        
+            #services ul li div a {
+                text-decoration: none;
+            }
+
+        #services ul li span {
+            display: block;
+            padding-top: 15px;
+            color: #5d5d5d;
+            font-family: lato;            
+        }
+
+#services #service-footer {
+    text-align: center;
+    padding-top: 60px
+}
+
+#success-story {
+    background-color: #f6f6f6;
+}
+
+    .slider img {
+        height: 300px;
+    }
+
+    .slider .slide-text {
+        float: left;
+    }
+
+    .slider .slide-img {
+        text-align: center;
+    }
+
+        .slider .slide-text div {
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 40px;
+        }
+
+   
